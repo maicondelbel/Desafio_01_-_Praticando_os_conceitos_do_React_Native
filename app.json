@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "toDo",
-    "slug": "toDo",
+    "slug": "todo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d4884789-96dc-44ab-9146-170b302188f6"
+      }
+    },
+    "owner": "maicondelbel",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d4884789-96dc-44ab-9146-170b302188f6"
     }
   }
 }
